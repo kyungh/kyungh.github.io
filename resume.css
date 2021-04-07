@@ -1,0 +1,18 @@
+#section3{
+    background-color: #7395ae;
+    display: block;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.resume-link {
+    color: blue;
+}
+#section3 h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+#body p{
+    font-size: 20px;
+}

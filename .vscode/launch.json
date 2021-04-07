@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Kyung Haug\\Documents\\Visual Studio 2019\\HTML\\Mortage Calculator\\index.html"
+            "file": "C:\\Users\\Kyung Haug\\Documents\\Visual Studio 2019\\HTML\\portfolio-v1\\index.html"
         }
     ]
 }
