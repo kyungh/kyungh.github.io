@@ -34,11 +34,16 @@ function displaySkills() {
 
 displaySkills();
 
-//Week 3: Async timeout
-setTimeout(spinwrap, 2000);
+// hide window scroll during site load; set full viewport-height for `spinWrap`
+document.body.style.overflowY = "hidden"
 
-function spinwrap (){
+//Week 3: Async timeout
+setTimeout(spinWrap, 2000);;
+
+function spinWrap (){
     let spinnerWrapper = document.querySelector('.spinner-wrapper');
     spinnerWrapper.style.display = 'none';
     spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+    // display window scroll after site load
+    document.body.style.overflowY = "scroll";
 };
