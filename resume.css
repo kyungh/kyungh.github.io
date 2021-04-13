@@ -20,11 +20,20 @@
 
 iframe{
     margin-top: 1%;
-    width: 80%;
     height: auto;
+    width: 70%;
 }
 
 img {
     max-height: auto;
     max-width: auto;
 }
+
+@media only screen and (min-width: 768px) {
+    
+    iframe {
+        height: 315px;
+        width: 560px;
+        }        
+    }
+    
