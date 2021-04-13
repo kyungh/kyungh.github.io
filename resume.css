@@ -17,3 +17,14 @@
 #body p{
     font-size: 20px;
 }
+
+iframe{
+    margin-top: 1%;
+    width: 80%;
+    height: auto;
+}
+
+img {
+    max-height: auto;
+    max-width: auto;
+}

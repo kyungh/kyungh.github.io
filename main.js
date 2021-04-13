@@ -2,18 +2,10 @@
 const skills = [ 
     {
         "id": "skill-1",
-        "title": "HTML | CSS | Javascript",
-    },
-    {
-        "id": "skill-2",
-        "title": "C#",
-    },
-    {
-        "id": "skill-3",
         "title": "Python",
     },
     {
-        "id": "skill-4",
+        "id": "skill-2",
         "title": "SQL",
     }];
 
@@ -38,7 +30,7 @@ displaySkills();
 document.body.style.overflowY = "hidden"
 
 //Week 3: Async timeout
-setTimeout(spinWrap, 2000);;
+setTimeout(spinWrap, 1000);;
 
 function spinWrap (){
     let spinnerWrapper = document.querySelector('.spinner-wrapper');
